@@ -1,0 +1,28 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    font-family: 'Pacifico';
+    font-size: 25vmin;
+    background: #34ebe9;
+}
+
+h1
+{
+    background-image: linear-gradient(90deg, #ff1b82, #ff5aa4, #ff96c5);
+    color: transparent;
+    -webkit-background-clip: text;
+
+    animation: move 1s infinite;
+}
+
+@keyframes move {
+    50%{
+        background-image: linear-gradient(262deg, #ff1b82, #ff5aa4, #ff96c5);
+    }
+}
